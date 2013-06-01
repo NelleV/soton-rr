@@ -1,7 +1,7 @@
 import numpy as np
 
 X = np.loadtxt(
-    '/home/nelle/Projects/SCCourses-reproducible-research/my_data.txt')
+    '/home/nelle/Projects/SCCourses-reproducible-research/my_data_2.txt')
 
 output_file = open("my_results.txt", 'wb')
 output_file.write("This is my results file !\n")
